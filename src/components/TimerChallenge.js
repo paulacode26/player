@@ -21,7 +21,7 @@ const TimerChallenge = ({title, targetTime}) => {
     return ( 
         <section id='challenge'>
             <h2>{title}</h2>
-            {/*<p>{timerExpired? 'You lost!' : ''}</p>*/}
+            {/*<p>{timerExpired? 'You lostttttt!' : ''}</p>*/}
             {timerExpired&&<p>You lost!</p>} {/*when the vble timerExpired is true it put You lost!, if the vble is false don't put it */}
             <button onClick={timerStarted ? handleStop : handleStart}>{timerStarted ? 'Stop' : 'Start'} Challenge</button>
             <p>{timerStarted? 'Time is running..' : 'Timer inactive'}</p>
